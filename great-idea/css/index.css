@@ -99,53 +99,80 @@ nav .nav-item{
 header{
 	display: flex;
 	justify-content: center;
-    height: 540px;
+    align-items: center;
+    height: 530px;
 }
 header .header-content-text{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 56%;
 }
 header .header-content-text h1{
 	text-align: center;
-    font-size:80px;
+    font-size:79px;
+}
+header .header-content-text div{
+	border: 1px solid #000000;
+    
+    text-align: center;
+    font-size:18px;
+    padding: 8px 40px;
 }
 header .header-content-image{
 	display: flex;
     flex-direction: row;
-    
-    /*text-align: center;*/
+    justify-content: flex-end;
 }
 .top-content-section{
 	display: flex;
+    padding-top: 35px;
+    border-top:1px solid #000000;
 }
 .bottom-content-section{
 	display: flex;
 	justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #000000;
 }
 .bottom-content-section .top-content{
 	width:50%;
 }
 .bottom-content-section .bottom-content{
 	width: 32%;
+    margin-bottom: 15px;
 }
 .middle-img{
 	text-align: center;
-	margin: 50px 0px;
+	margin: 45px 0px;
 }
 .middle-img img{
 	width: 100%;
 	height: auto;
 }
 section{
-	margin: 50px 0px;
+	
+    border-top: 1px solid #000000;
+    
 }
 .contact{
-	margin-bottom:50px;
+	margin:40px 0px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-footer{
-	text-align: center;
+.contact div{
+	margin:0px 0px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer p{
+	padding-top:11px;
+    text-align: center;
+    font-size:14px;
 }
 
